@@ -1,0 +1,36 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul.contact-list_title li {
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  max-width: 20%;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px 0px;
+
+}
+
+.contact-list li {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.contact-list li span {
+  display: inline-block;
+  padding: 10px 0px;
+  width: 100%;
+  max-width: 20%;
+  text-align: center; 
+}
+
+input {
+  width: 300px;
+}
+
+button {
+  cursor: pointer;
+}

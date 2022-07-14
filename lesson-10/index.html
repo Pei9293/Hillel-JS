@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact list</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <p>contact list</p>
+    <ul class="contact-list_title">
+        <li>Name</li>
+        <li>Last name</li>
+        <li>Number</li>
+    </ul>
+
+    <ul class="contact-list">
+    </ul>
+
+    <label>
+        <input id="name" type="text" placeholder="Name">
+        <input id="lastname" type="text" placeholder="lastName">
+        <input id="number" type="tel" placeholder="number">
+        <button id="add-contact-btn">Add </button>
+    </label>
+
+    <script id="contact-list__item-template" type="text/template">
+        <li class="contact-item">
+            <span class="contact-item-el">{name}</span>
+            <span class="contact-item-el">{lastName}</span>
+            <span class="contact-item-el">{number}</span>
+            <button class="deleteBtn">Delete</button>
+        </li>
+    </script>
+</body>
+</html>

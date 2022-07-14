@@ -1,0 +1,18 @@
+input.button_connect {
+  border: solid 1px #0b0b0b;
+  padding: 12px 42px ;
+}
+
+button.input_connect {
+  font-size: 16px;
+  line-height: 21px;
+  padding: 7px 40px 9px;
+  color: #fff;
+  background: #070708;
+}
+
+button.input_connect:hover {
+  text-shadow: 2px 2px 5px #000;
+  cursor: pointer;
+}
+
