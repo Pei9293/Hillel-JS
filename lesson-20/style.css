@@ -1,0 +1,40 @@
+body {
+  background-repeat: repeat;
+}
+
+.stickers-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sticker-item {
+  position: relative;
+  background-color: #4978c4;
+  padding: 20px;
+  margin: 20px;
+}
+
+.deleteBtn {
+  float: right;
+  cursor: pointer;
+}
+
+.add-sticker {
+  border-radius: 50%;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  font-size: 32px;
+  background-color: aquamarine;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 100;
+}
+
+.add-sticker:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 2px;
+  text-shadow: 1px 1px 40px;
+  text-align: center;
+}
