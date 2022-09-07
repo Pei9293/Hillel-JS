@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact list</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script defer src="./contactApi.js"></script>
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <ul class="contact-list_title">
+        <li>Name</li>
+        <li>Surname</li>
+        <li>Phone number</li>
+    </ul>
+
+    <ul class="contact-list">
+    </ul>
+
+    <button id="create-contact">Create new contact</button>
+
+    <div id="dialog-form" title="Create new contact">
+        <p class="validateTips">All form fields are required.</p>
+       
+        <form id="contact-list-form">
+          <fieldset>
+            <input type="hidden" name="id" id ="id" class="text ui-widget-content ui-corner-all"> <br>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all" placeholder="Name"> <br><br>
+            <label for="surname">Surame</label>
+            <input type="text" name="surname" id="surname" class="text ui-widget-content ui-corner-all" placeholder="Surame"> <br><br>
+            <label for="number">Phone</label>
+            <input type="tel" name="number" id="number" class="text ui-widget-content ui-corner-all" placeholder="Phone number"> <br><br>
+            <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+          </fieldset>
+        </form>
+      </div>
+</body>
+</html>

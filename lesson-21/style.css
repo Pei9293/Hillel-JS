@@ -1,0 +1,68 @@
+form {
+  margin-left: 30px;
+}
+
+input {
+  height: 30px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#create-contact {
+  position: fixed;
+  top: 30px;
+  right: 10px;
+}
+
+ul.contact-list_title li {
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px 0px;
+  padding-right: 95px;
+  text-align: center;
+  width: 100%;
+  max-width: 20%;
+  margin-left: -80px;
+}
+
+.contact-list {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.contact-list li {
+  font-size: 18px;
+  margin-top: 10px;
+  border: solid 1px #111;
+  padding-left: 30px;
+}
+
+.contact-list li span {
+  display: inline-block;
+  padding: 10px 0px;
+  width: 100%;
+  max-width: 20%;
+  text-align: left; 
+  text-transform: capitalize;
+}
+
+.editBtn {
+  color: forestgreen;
+  cursor: pointer;
+  float: right;
+  margin: 12px 1px;
+  border-radius: 4px;
+  border: transparent;
+}
+
+.deleteBtn {
+  color: indianred;
+  cursor: pointer;
+  float: right;
+  margin: 12px 5px;
+  border-radius: 4px; 
+  border: transparent;
+}
