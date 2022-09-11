@@ -1,0 +1,9 @@
+.name {
+  display: inline-block;
+  width: 30%;
+}
+
+.mark {
+  max-width: 20px;
+  margin-left: 15px;
+}
