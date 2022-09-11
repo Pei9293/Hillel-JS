@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#albumsList {
+  max-width: max-content;
+  width: 100%;
+  list-style: none;
+  padding-right: 5px;
+  float: left;
+}
+
+.album {
+  margin: 5px;
+  padding: 2px;
+  border: solid 1px #222;
+  cursor: pointer;
+}
+
+.active {
+  color: royalblue;
+}
+
+#images {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  list-style: none;
+}
+
+.album-image {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+}
