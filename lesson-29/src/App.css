@@ -1,0 +1,21 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0px 8px 10px;
+  border: solid 1px;
+  position: relative;
+}
+
+button {
+  float: right;
+  position: relative;
+  right: 5px; 
+  margin-left: 2px;
+}
+
+.done {
+  background-color: aquamarine;
+}
