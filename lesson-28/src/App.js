@@ -29,7 +29,7 @@ function Todo() {
       <ul id="todoList">
         {items.map((item, i) => <li key={i}>{item}</li>)}
       </ul>
-      <input value={message} onChange={onMessageChange} type="text" placeholder="Введите сообщение" />
+      <input value={message} onChange={onMessageChange} type="text" placeholder="Write message" />
       <button id="msgButton" onClick={onAddBtnClick}>Отправить</button>
     </>
   )
