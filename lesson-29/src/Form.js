@@ -26,9 +26,9 @@ export default function Form({ editTodo, onSubmit, defaultMessage }) {
         value={message}
         onChange={onMessageChange}
         type="text"
-        placeholder="Введите сообщение"
+        placeholder="Enter message"
       />
-      <button>Отправить</button>
+      <button>Send</button>
     </form>
   );
 }
