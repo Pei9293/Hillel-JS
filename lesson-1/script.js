@@ -1,2 +1,2 @@
-let name = prompt("What is your name?")
-alert(`Hello, ${name}! How are you?`)
+let name = prompt("як тебе звати?")
+alert(`Привіт,${name}!Як справи? `)
